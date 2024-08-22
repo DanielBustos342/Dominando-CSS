@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.large {
+  font-size: 1.25rem;
+}
+
+.text-orange {
+  color: #e84b2a;
+}
+
+.text-light {
+  font-weight: 200;
+}
+
+.display-1 {
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 15px;
+  padding: 15px 50px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 20px;
+}
+
+.btn-light {
+  background: #e84b2a;
+  border: 1px solid #e84b2a;
+  color: #fff;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn-dark {
+  background: #6c757d;
+  border: 1px solid #6c757d;
+  color: #fff;
+}
+
+#bodyHeader {
+  height: 20vh;
+  padding-top: 50px;
+}
+
+#navbar {
+  background: #e84b2a;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+/* header */
+#mainHeader {
+  height: 100vh;
+  padding-top: 50px;
+}
+
+#mainNavbar {
+  overflow: auto;
+}
+
+#mainNavbar a {
+  color: #6c757d;
+}
+
+#mainNavbar .logo,
+#mainNavbar .logo {
+  float: left;
+  padding-top: 30px;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+#mainNavbar ul,
+#navbar ul {
+  list-style-type: none;
+  float: right;
+  text-transform: uppercase;
+}
+
+#mainNavbar ul li,
+#navbar ul li {
+  float: left;
+}
+
+#mainNavbar ul li a,
+#navbar ul li a {
+  display: block;
+  padding: 40px 30px;
+  text-align: center;
+}
+
+#mainNavbar ul li a:hover {
+  background: #e84b2a;
+  color: #fff;
+}
+
+#showcase {
+  background: url("./assets/img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: right;
+  padding-top: 200px;
+  padding-bottom: 90px;
+  color: #fff;
+}
+
+#showcase h1 {
+  padding-left: 300px;
+}
+
+#showcase p {
+  padding-left: 300px;
+  padding-top: 20px;
+}
